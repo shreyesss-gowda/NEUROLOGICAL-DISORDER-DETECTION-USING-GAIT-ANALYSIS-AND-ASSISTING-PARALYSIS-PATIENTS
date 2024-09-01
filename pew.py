@@ -30,7 +30,7 @@ def handle_sos():
     message = client.messages.create(
         from_='whatsapp:+14155238886',
         body='Emergency now.',
-        to='whatsapp:+916364251225'
+        to='whatsapp:+91******1225'
     )
     
     print(message.sid)
